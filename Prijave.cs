@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace sorgorg
 {
-    public partial class Form1 : Form
+    public partial class Prijave : Form
     {
-        public Form1()
+        public Prijave()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Firma f = new Firma();
-            f.Show();
         }
     }
 }
