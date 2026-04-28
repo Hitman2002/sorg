@@ -48,10 +48,19 @@ namespace sorgorg
                 Prijave forma = new Prijave();
                 forma.ShowDialog(); // ili Show()
             };
-            btnKandidati.Click += (s, e) => MessageBox.Show("Pretraga kandidata bi bila posebna forma.");
+            btnKandidati.Click += (s, e) =>
+            {
+                Kandidati forma = new Kandidati();
+                forma.ShowDialog();
+            };
             btnPoruke.Click += (s, e) => MessageBox.Show("Komunikacija sa kandidatima ostaje unutar sistema.");
             btnTim.Click += (s, e) => MessageBox.Show("Ovdje se dodaju HR, menadžeri i administratori.");
             btnAnalitika.Click += (s, e) => PrikaziAnalitiku();
+            btnAnalitika.Click += (s, e) =>
+            {
+                Analitika forma = new Analitika();
+                forma.ShowDialog();
+            };
             btnSigurnost.Click += (s, e) => MessageBox.Show("Sigurnost: promjena lozinke, uloge i aktivnosti naloga.");
         }
 
