@@ -151,6 +151,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Analitika.resx">
+      <DependentUpon>Analitika.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Firma.resx">
       <DependentUpon>Firma.cs</DependentUpon>
     </EmbeddedResource>

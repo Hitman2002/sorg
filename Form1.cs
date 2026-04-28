@@ -19,7 +19,7 @@ namespace sorgorg
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Firma f = new Firma();
+            Login f = new Login();
             f.Show();
         }
     }

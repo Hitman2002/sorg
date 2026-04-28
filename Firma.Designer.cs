@@ -253,7 +253,7 @@ namespace sorgorg
             this.btnSacuvaj.Name = "btnSacuvaj";
             this.btnSacuvaj.Size = new System.Drawing.Size(150, 29);
             this.btnSacuvaj.TabIndex = 2;
-            this.btnSacuvaj.Text = "Sačuvaj izmjene";
+            this.btnSacuvaj.Text = "Sačuvaj izmene";
             this.btnSacuvaj.UseVisualStyleBackColor = false;
             // 
             // pnlContent
@@ -526,7 +526,7 @@ namespace sorgorg
             this.btnDetalji.Location = new System.Drawing.Point(230, 160);
             this.btnDetalji.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDetalji.Name = "btnDetalji";
-            this.btnDetalji.Size = new System.Drawing.Size(150, 28);
+            this.btnDetalji.Size = new System.Drawing.Size(150, 35);
             this.btnDetalji.TabIndex = 2;
             this.btnDetalji.Text = "Detalji kandidata";
             // 
@@ -535,7 +535,7 @@ namespace sorgorg
             this.btnPoruka.Location = new System.Drawing.Point(400, 160);
             this.btnPoruka.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnPoruka.Name = "btnPoruka";
-            this.btnPoruka.Size = new System.Drawing.Size(140, 28);
+            this.btnPoruka.Size = new System.Drawing.Size(154, 35);
             this.btnPoruka.TabIndex = 3;
             this.btnPoruka.Text = "Pošalji poruku";
             // 
@@ -544,7 +544,7 @@ namespace sorgorg
             this.btnFavorit.Location = new System.Drawing.Point(560, 160);
             this.btnFavorit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnFavorit.Name = "btnFavorit";
-            this.btnFavorit.Size = new System.Drawing.Size(150, 28);
+            this.btnFavorit.Size = new System.Drawing.Size(166, 35);
             this.btnFavorit.TabIndex = 4;
             this.btnFavorit.Text = "Dodaj u favorite";
             // 

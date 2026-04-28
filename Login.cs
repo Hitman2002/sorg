@@ -28,37 +28,14 @@ namespace sorgorg
             string email = textBox1.Text;
             string pass = textBox2.Text;
 
-            if (email == "" || pass == "")
-            {
-                MessageBox.Show("Please fill in all fields.");
-                return;
-            }
+            if (email == "firma" || pass == "firma") {
+                Firma form = new Firma();
+                form.Show();
 
-            string query = "SELECT * FROM users WHERE email = @email AND password = @pass";
-            using (MySqlCommand cmd = new MySqlCommand(query, conn))
-            {
-                cmd.Parameters.AddWithValue("@email", email);
-                cmd.Parameters.AddWithValue("@pass", pass);
-                try
-                {
-                    conn.Open();
-                    MySqlDataReader reader = cmd.ExecuteReader();
-                    if (reader.HasRows)
-                    {
-                        MessageBox.Show("Login successful!");
-                    }
-                    else
-                    {
-                        MessageBox.Show("Invalid email or password.");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Database error: " + ex.Message);
-                }
             }
+            
+
         }
-
         private void Login_Load(object sender, EventArgs e)
         {
 
